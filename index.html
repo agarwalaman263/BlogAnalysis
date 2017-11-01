@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+	.list
+	{
+		color:white;
+		font-size: 25px;
+
+	}
+</style>
+	<title>Blogosphere Analysis</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script type="text/javascript" src="sentimood/sentimood.js"></script>
+<!-- <script type="text/javascript" src="requirejs/require.js"></script> -->
+<script src="jquery.js"></script>
+<script type="text/javascript" src="bayes/classifier.js"></script>
+<script type="text/javascript" src="backend.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.4/Chart.bundle.min.js"></script>
+</head>
+<body>
+<div class="yellow-half">
+	<div class="title">Blogosphere Analysis</div>
+	 <form name="search" method="get">
+		<textarea rows="5" cols="100" placeholder="Enter the TExt which you want to verify" id="text" align="left" onkeypress="start()"></textarea><br>
+		<!-- <input type="submit" name="submit" id="submit"> -->
+	</form>
+</div>
+
+<div style="left:50%;position: absolute;transform: translateX(-50%);">
+<div class="arrow-down"></div>
+</div>
+<div id="results">
+
+<canvas id="myChart" style="height:auto;width: 100%;"></canvas>
+<br><br>	
+<canvas id="myChart1" style="height:auto;width: 100%;"></canvas>
+<br><br>
+<canvas id="pie-chart" style="height:auto;width: 100%;"></canvas>
+
+<div class="list">
+	
+</div>
+
+<script type="text/javascript" src="backend.js"></script>
+</div>
+</body>
+</html>

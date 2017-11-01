@@ -1,0 +1,16 @@
+{
+  "name": "Sentimental",
+  "description": "Sentiment Analysis module",
+  "repository": "git://github.com/thinkroth/Sentimental",
+  "version": "1.0.1",
+  "author": "Kevin M Roth",
+  "dependencies": {
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "devDependencies": {
+    "mocha": "1.18.2",
+    "should": "3.3.0"
+  }
+}

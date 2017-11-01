@@ -1,0 +1,65 @@
+*
+{
+	font-family:lato;
+	margin: 0;
+	padding: 0;
+
+}
+body
+{
+	background-color: black;
+}
+.yellow-half
+{
+	text-align: center;
+	width: 100%;
+
+	background-color:#fffa51;
+
+}
+.title
+{
+	padding:50px 50px 30px 50px;
+	font-weight: bolder;
+	font-size: 5em;
+
+}
+.yellow-half form
+{
+	padding:50px;
+}
+.arrow-down 
+{
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #fffa51; 
+}
+#text
+{
+	background: none;
+	border:none;
+	resize: none;
+	text-decoration: underline;
+}
+#text:focus
+{
+	outline:none;
+}
+#submit
+{
+	font-weight: bold;
+padding: 10px;
+width:125px;
+height:45px;
+background: none;
+border:5px black solid;
+cursor: inherit;
+}
+#results
+{
+	color:white;
+	font-family: lato;
+}

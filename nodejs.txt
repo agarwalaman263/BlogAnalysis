@@ -1,0 +1,35 @@
+node js is built on chrome v8 javascript engine and uses event driven none blocking model which makes it light weight and efficient.
+It is not a framework, it is a platform/ application which runs on server and helps to run javascript programs.
+
+Global objects
+Some functions work in node as they used to work in normal jacascript while others have changed
+some of the functions which remain same are
+	setTimeOut(
+	function()
+	{
+	console.log("3 seconds have passed")
+	},3000);
+
+
+//////////////////////////////////////////
+	
+
+	setInterval(function(){
+
+	console.log("2 more seconds have passed")
+	},3000);
+//////////////////////////////////////////////////
+console.log(__dirname);  // will display the directory (without the file name)
+console.log(__filename);// Will display the diretcory and file name 
+
+/////////////////////////////////////////////
+Modules and require
+Module is another jaavscript file
+
+
+var module=require("./module")
+module.export={
+	function_name : dummy name which will help us call the function,
+	function_name : dummy name which will help us call the function,
+	function_name : dummy name which will help us call the function
+} ;
